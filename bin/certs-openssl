@@ -15,7 +15,7 @@ prompt = no
 basicConstraints = CA:TRUE
 keyUsage = digitalSignature, keyCertSign, cRLSign
 [ dn ]
-CN = identity.linkerd.cluster.local
+CN = identity.default.cluster.local
 EOF
 
 # Generate CA key
